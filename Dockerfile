@@ -1,4 +1,6 @@
 FROM jenkins
+
+USER root
    
 RUN     apt-get update                                                                && \
         apt-get install                                                                  \
@@ -23,5 +25,5 @@ RUN     curl -L "https://github.com/docker/compose/releases/download/1.22.0/dock
         chmod +x /usr/local/bin/docker-compose
 
 ENV  MACHINE_STORAGE_PATH /home/persistent/docker-machine
-USER root
+
 
