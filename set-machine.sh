@@ -5,7 +5,7 @@
 . install-docker-compose.sh
 
 mkdir /home/persistent
-mkdir /home/persistent/jenkins-home
+mkdir /home/persistent/jenkins_home
 mkdir /home/persistent/docker-engine
 mkdir /home/persistent/docker-machine
 

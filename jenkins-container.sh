@@ -13,7 +13,7 @@ docker run -d \
 	-v /usr/bin/docker-machine:/usr/bin/docker-machine                 \
 	-v /usr/bin/docker-compose:/usr/bin/docker-compose                 \
 	\
-	-v /home/persistent/jenkins-home:/var/jenkins-home                 \
+	-v /home/persistent/jenkins-home:/var/jenkins_home                 \
 	-v /home/persistent/docker-engine:/home/persistent/docker-engine   \
 	-v /home/persistent/docker-machine:/home/persistent/docker-machine \
 	\
