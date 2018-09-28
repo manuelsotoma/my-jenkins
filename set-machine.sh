@@ -10,6 +10,6 @@ mkdir /home/persistent/docker-engine
 mkdir /home/persistent/docker-machine
 
 export MACHINE_STORAGE_PATH="/home/persistent/docker-machine"
-echo 'export VARNAME="my value"'>>/etc/environment 
+echo 'MACHINE_STORAGE_PATH="/home/persistent/docker-machine"'>>/etc/environment 
 
 . jenkins-container.sh 
